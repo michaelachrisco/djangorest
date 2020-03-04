@@ -74,9 +74,9 @@ DATABASES = {
     'default':
         {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'djangorest',
-            'USER': 'djangorest',
-            'PASSWORD': 'djangorest',
+            'NAME': 'circle_test',
+            'USER': 'root',
+            'PASSWORD': '',
             'HOST': 'localhost',
             'PORT': '',
         }
@@ -115,5 +115,3 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-
-STATIC_URL = '/static/'
